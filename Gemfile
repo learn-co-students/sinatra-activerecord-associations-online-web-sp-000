@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'activerecord', '4.2.5', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
+gem 'activerecord'
+gem 'sinatra-activerecord'
 
 gem 'sinatra'
 gem 'sqlite3'
