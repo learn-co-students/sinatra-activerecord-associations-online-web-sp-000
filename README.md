@@ -16,7 +16,7 @@ The end goal of this readme is to create a relationship in our app that mimics t
 
 #### Review: Creating a table with ActiveRecord
 
-First, we create a cats table from the command line:
+First, we create a cats table from the command line :
 `rake db:create_migration NAME="create_cats"`
 
 This will give us an empty migration in our `db/migrate/` folder. Now lets give our cats table attributes: `name`, `age` and `breed`. This will go into our `change` method.
