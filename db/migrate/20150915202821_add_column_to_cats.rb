@@ -3,6 +3,7 @@ class AddColumnToCats < ActiveRecord::Migration
     add_column :cats, :owner_id, :integer
   end
 
+
   def down
     remove_column :cats, :owner_id
   end
