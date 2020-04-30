@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/bmabey/database_cleaner.git
-  revision: 281d591cc8c0ff05aa496ea016c1716cfc2d75d4
-  specs:
-    database_cleaner (2.0.0.beta)
-      database_cleaner-active_record
-    database_cleaner-core (2.0.0.beta)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -27,9 +19,6 @@ GEM
     builder (3.2.4)
     coderay (1.1.2)
     concurrent-ruby (1.1.6)
-    database_cleaner-active_record (2.0.0.beta)
-      activerecord
-      database_cleaner-core (= 2.0.0.beta)
     diff-lcs (1.3)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -96,7 +85,6 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (= 4.2.5)
-  database_cleaner!
   json (>= 1.8.3)
   pry
   pry-nav
