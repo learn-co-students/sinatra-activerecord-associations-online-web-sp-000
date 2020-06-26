@@ -10,3 +10,5 @@ ActiveRecord::Base.establish_connection(
 
 require './app'
 require_all 'models'
+
+#why you make me change
